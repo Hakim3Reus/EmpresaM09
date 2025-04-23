@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultimatum Keyboards</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #212529;
+    }
+    .navbar-brand {
+      font-weight: bold;
+    }
+    .accessible-color {
+      background-color: #004085;
+      color: #ffffff;
+    }
+    footer {
+      background-color: #212529;
+      color: white;
+      padding: 2rem 0;
+    }
+    footer a {
+      color: #9bd1ff;
+    }
+    .producte img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+    .producte h5 {
+      margin-top: 1rem;
+    }
+    .portada {
+      background-color: #e3f2fd;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+    .portada img {
+      max-width: 25%;
+      height: auto;
+      border-radius: 1rem;
+      margin-top: 2rem;
+    }
+    .logo-empresa {
+      max-width: 300px;
+      margin: 2rem auto 0;
+      display: block;
+    } 
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary" role="navigation">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ultimatum Keyboards</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Mostra el menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inici</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#serveis">Serveis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacte">Contacte</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="portada">
+    <div class="container">
+      <h1>Benvingut a Ultimatum Keyboards</h1>
+      <p class="lead">Especialistes en teclats personalitzats per a gamers, professionals i amants de la tecnologia. Dissenyem, configurem i oferim els millors components per crear una experiència d'escriptura única i òptima per a cada persona.</p>
+      <img src="keyboardsTech.png" alt="Logo d'empresa" class="logo-empresa">
+    </div>
+  </section>
+
+  <section id="serveis" class="container my-5">
+    <h2 class="mb-4">Els nostres serveis</h2>
+    <div class="accordion" id="accordionServeis">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Consultoria de teclats personalizats
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionServeis">
+          <div class="accordion-body">
+            Oferim un servei de teclats personalitzats completament, un expert en teclats t'ajudara a construir el teu teclat perfecte per a les 
+            teves necesitats i el teu estil de vida. Els nostres experts t'ajudaran a escollir els millors components per al teu teclat, 
+            incloent-hi el tipus d'interruptors, el disseny del teclat i la il·luminació RGB. A més, t'ensenyarem com configurar el teu 
+            teclat per a que sigui el més eficient possible per a tu.
+            <br> El nostre servei de consultoria és ideal tant per a jugadors com per a 
+            professionals que busquen un teclat que s'adapti a les seves necessitats específiques.Si tens dubtes sobre el servei, no dubtis en 
+            contactar-nos i t'ajudarem amb qualsevol pregunta que puguis tenir. Estem aquí per ajudar-te a fer la millor elecció per al teu 
+            teclat personalitzat i assegurar-nos que estiguis completament satisfet amb la teva compra.
+            <br>No esperis més i contacta'ns avui mateix! 
+            Estem aquí per ajudar-te a fer la millor elecció per al teu teclat personalitzat i assegurar-nos que estiguis completament satisfet 
+            amb la teva compra.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Productes a la venta
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionServeis">
+          <div class="accordion-body">
+            <div class="row text-center">
+              <div class="col-md-4 producte">
+                <img src="tec1.jpg" alt="Teclat gaming v2" class="img-fluid mb-2">
+                <h5>Teclat gaming v2</h5>
+              </div>
+              <div class="col-md-4 producte">
+                <img src="tec2.jpg" alt="Teclat gaming white version" class="img-fluid mb-2">
+                <h5>Teclat gaming white version</h5>
+              </div>
+              <div class="col-md-4 producte">
+                <img src="tec3.jpg" alt="Teclat gaming PRO" class="img-fluid mb-2">
+                <h5>Teclat gaming PRO</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacte" class="container my-5">
+    <h2 class="mb-4">Contacta amb nosaltres</h2>
+    <form aria-label="Formulari de contacte">
+      <div class="mb-3">
+        <label for="nom" class="form-label">Nom</label>
+        <input type="text" class="form-control" id="nom" aria-required="true" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correu electrònic</label>
+        <input type="email" class="form-control" id="email" aria-required="true" required>
+      </div>
+      <div class="mb-3">
+        <label for="missatge" class="form-label">Missatge</label>
+        <textarea class="form-control" id="missatge" rows="5" aria-required="true" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+
+  <footer class="text-center">
+    <div class="container">
+      <p>&copy; 2025 Ultimatum Keyboards. Tots els drets reservats.</p>
+      <p><a href="#" aria-label="Política de privacitat">Política de privacitat</a> | <a href="#" aria-label="Avís legal">Avís legal
+      </a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
